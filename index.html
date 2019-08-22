@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi portafolio</title>
+    <!---google fonts--->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Playfair+Display:700&display=swap" rel="stylesheet">
+    <!---font awesome--->
+    <script src="https://kit.fontawesome.com/12e8ae4722.js"></script>
+
+    <!---css de bootstrap 4.2.1--->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!---mi estilo--->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+  <!--Inicio nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href=""><h3 class="text-white">FS</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-md-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mi-experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+
+
+  <!--Header foto-->
+    <header>
+      <div class="jumbotron jumbotron-fluid position-relative">
+        <div class="container">
+          <hgroup class="position-absolute text-center fixed-bottom text-white">
+            <h2>YO SOY</h2>
+            <hr class="bg-white" width="200" size="4">
+            <h1 class="display-4 font-weight-bold">FERNANDA SALINAS</h1>
+          </hgroup>
+        </div>
+      </div>
+    </header>
+
+    <!---Sobre mi--->
+    <div class="container" id="sobre-mi">
+
+      <section>
+        <h3 class="text-center pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+        <hr class="bg-dark my-4" width="150" size="4">
+        <div class="row my-5">
+          <p class="col-sm-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="col-sm-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+
+    </div>
+
+      <!---Mi experiencia ICONOS--->
+      <section class="container experiencia" id="mi-experiencia">
+
+        <h2 class="text-center font-weight-bold mt-5">MI EXPERIENCIA</h2>
+        <hr class="bg-dark mb-5" width="200" size="4">
+
+        <div class="row text-center my-5">
+
+          <div class="col-sm-12 col-md-4">
+            <i class="fas fa-palette fa-5x" data-container="body" data-toggle="popover" data-placement="right" data-content="click para ver mis obras de arte"></i>
+            <h4 class="p-2">Artes Visuales</h4>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <i class="fas fa-swatchbook fa-5x" data-container="body" data-toggle="popover" data-placement="right" data-content="click para ver mis diseños"></i>
+            <h4 class="p-2">Diseño Gráfico</h4>
+          </div>
+
+        </div>
+      </section>
+
+   <!---Mis ultimos trabajos CARDS--->
+    <section class="bg-purple text-center text-white font-weight-bold" id="trabajos">
+      <h2 class="pt-5">MIS ÚLTIMOS TRABAJOS</h2>
+      <hr class="bg-white mb-4" width="200" size="4">
+
+      <div class="row text-left p-5 mx-5">
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-4">
+          <div class="card text-dark">
+            <img class="card-img-top" src="assets/img/cuppon.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="my-2">Cupón</h4>
+              <p class="card-text text-left pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-4">
+          <div class="card text-dark">
+            <img class="card-img-top" src="assets/img/dmark.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="my-2">DMark</h4>
+              <p class="card-text text-left pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-4">
+          <div class="card text-dark">
+            <img class="card-img-top" src="assets/img/iguana_page.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="my-2">Iguana Page</h4>
+              <p class="card-text text-left pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-4">
+          <div class="card text-dark">
+            <img class="card-img-top" src="assets/img/meet_coffee.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="my-2">Meet & Coffee</h4>
+              <p class="card-text text-left pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-4">
+          <div class="card text-dark">
+            <img class="card-img-top" src="assets/img/ricomida.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="my-2">Ricomida</h4>
+              <p class="card-text text-left pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 p-4">
+          <div class="card text-dark">
+            <img class="card-img-top" src="assets/img/suricata.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="my-2">Suricata</h4>
+              <p class="card-text text-left pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseblat. </p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+<!---TYPEFORM--->
+  <div id="contacto">
+    <div class="typeform-widget" data-url="https://fernanda134992.typeform.com/to/VUIDcW" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=VUIDcW&utm_source=typeform.com-14537131-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+  </div>
+<!---Footer - REDES SOCIALES--->
+    <footer class="bg-purple">
+      <div class="row">
+        <h2 class="text-white p-3 col-md-4 text-center mt-4">FERNANDA SALINAS</h2>
+        <div class="text-white text-right col-md-8 text-center">
+          <a href="https://github.com/Fernandadesign"><i class="fab fa-github-square fa-5x p-2"></i></a>
+          <a href="https://www.facebook.com/Fer.Arteydiseno"><i class="fab fa-facebook-square fa-5x p-2 text-center"></i></a>
+          <a href="https://www.linkedin.com/in/fernanda-salinas-herrera-29599a63/"><i class="fab fa-linkedin fa-5x p-2 text-center"></i></a>
+          <a href="https://twitter.com/FeRsalinasH"><i class="fab fa-twitter-square fa-5x p-2 text-center"></i></a>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <!---jquery 3.4.1--->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <!---pooper js 1.14.3--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!---bootstrap JS 4.2.1--->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!---Mi script--->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

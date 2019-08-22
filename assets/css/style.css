@@ -1,0 +1,67 @@
+/* {font-family: 'Playfair Display', serif; */
+/* font-family: 'Nanum Gothic', sans-serif;}// */
+
+nav {
+  background-color: purple;
+}
+
+nav h3 {
+  font-family: 'paufair Display', serif;
+  font-weight: 700;
+}
+
+.jumbotron {
+  background: url('../img/bg_hero.png');
+  height: 737px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'paufair Display', serif;
+  font-weight: 700;
+}
+
+header h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+}
+
+.experiencia i {
+  color: purple;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+footer h2 {
+  font-family: 'paufair Display', serif;
+  font-weight: 700;
+}
+
+footer i {
+  color: white;
+}
